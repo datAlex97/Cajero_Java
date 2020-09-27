@@ -16,7 +16,7 @@ public class Cajero {
 			
 			System.out.println("Bienvenido al cajero, favor de seleccionar una opcion y dar enter \n");
 			System.out.println("1.- Crear cuenta vacía \n" + "2.- Crear cuenta saldo inicial \n" + "3.- Ingresar dinero \n" + "4.- Sacar dinero \n" + "5.- Ver saldo \n"
-			+ "6.- Salir \n" + "7.- Hacer transferencia");
+			+ "6.- Salir \n" + "7.- Hacer transferencia \n" + "8.- Funcion extra 1");
 			try {
 				opc = sc.nextInt();
 				switch (opc) {
